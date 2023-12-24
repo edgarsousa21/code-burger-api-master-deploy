@@ -29,10 +29,10 @@ class Database {
   mongo() {
     this.mongoConnection = mongoose.connect(
       'mongodb://mongo:Aa3-c6CHccACHh341HGb55DfehBbbDEC@roundhouse.proxy.rlwy.net:20587',
-      // {
-      //   useNewUrlParser: true,
-      //   useUnifiedTopology: true,
-      // },
+      {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+      },
     )
   }
 }
